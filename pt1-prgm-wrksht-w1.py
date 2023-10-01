@@ -28,7 +28,8 @@ def tenHellos():
    # print("Hello World"\n*10)
     
 # fith: basic function
-# suppose the prices of train tickets are increasing by 2% every month. Write a function called railFareIncrease which begins by printing the current price of a ticket from Southampton to Portsmouth: £16.50. It should then display the price for 11 more months
+# suppose the prices of train tickets are increasing by 2% every month, write a function called railFareIncrease which begins by printing the current price,
+# of a ticket from Southampton to Portsmouth: £16.50. It should then display the price for 11 more months
 
 def railFareIncreases():
     num1 = 16.50*1.02
@@ -98,7 +99,8 @@ def countTo():
     print(x+1)
 
 # seventh: basic function
-# based on your solution to the previous question, write a function named countFromTo that asks the user for two numbers. The first number is the start of the count and the second one is where the count ends
+# based on your solution to the previous question, write a function named countFromTo that asks the user for two numbers, 
+# the first number is the start of the count and the second one is where the count ends
 
 def countFromTo():
     number1 = int(input("Enter Your First Number: "))
@@ -107,7 +109,8 @@ def countFromTo():
         print(number+1)
 
 # eigth: basic function
-# write a function named changeCounter, this should ask the user how many 1p, 2p and 5p coins they have (using separate questions), and then display the total amount of money in pence
+# write a function named changeCounter, this should ask the user how many 1p, 2p and 5p coins they have (using separate questions),
+# and then display the total amount of money in pence
 
 def changeCounter():
     number1 = int(input("How Many 1p Coins Do You Have: "))
