@@ -144,7 +144,7 @@ def weightsTable():
     print(number4,  "|",  num4)
     print(number5,  "|",  num5)
 
-# this format uses a loop to convert values already inputted, rather than inputs from a suer
+# this format uses a loop to convert values already inputted, rather than inputs from a user
 
 def weightsTable():
     print(" Kgs | Ounces ")
