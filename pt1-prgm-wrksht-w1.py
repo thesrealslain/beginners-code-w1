@@ -28,7 +28,21 @@ def tenHellos():
    # print("Hello World"\n*10)
     
 # fith: basic function
-# suppose the prices of train tickets are increasing by 2% every month. Write a function called railFareIncrease which begins by printing the current price of a ticket from Southampton to Portsmouth: £16.50. It should then display the price for 11 more months
+# suppose the prices of train tickets are increasing by 2% every month, write a function called railFareIncrease,
+# which begins by printing the current price of a ticket from Southampton to Portsmouth: £16.50, it should then display the price for 11 more months
+# this is the updated method using a loop
+
+def railFareIncrease():
+    initialTicket = 16.50
+    print(f"Month 1: £{initialTicket:.2f}")
+
+    for month in range(2, 13):
+        initialTicket = initialTicket*1.02
+        print(f"Month {month}: £{round(initialTicket, 2)}")
+railFareIncrease()
+
+# this is the old method not using a loop
+# far longer but produces the results personalised with their months
 
 def railFareIncreases():
     num1 = 16.50*1.02
