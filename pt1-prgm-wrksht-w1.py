@@ -25,7 +25,7 @@ def dollars2pounds():
 # write a function called tenHellos that uses a loop to display "Hello World" ten times (on seperate lines)
 
 def tenHellos():
-   # print("Hello World"\n*10)
+    print("Hello World"\n*10)
     
 # fith: basic function
 # suppose the prices of train tickets are increasing by 2% every month, write a function called railFareIncrease,
